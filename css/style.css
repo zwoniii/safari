@@ -543,6 +543,12 @@ a {
     .popular__items {
         grid-template-columns: repeat(2, 1fr);
     }
+    .map {
+        padding-bottom: 50px;
+    }
+    .map__iframe {
+        height: 400px;
+    }
 }
 
 @media (max-width: 560px) {
