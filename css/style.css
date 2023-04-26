@@ -509,6 +509,15 @@ a {
     }
 }
 
+@media (max-width: 990px) {
+    .popular__link {
+        min-height: 200px;
+    }
+    .popular__items {
+        gap: 10px;
+    }
+}
+
 @media (max-width: 800px) {
     .header__phone span {
         display: none;
@@ -519,6 +528,20 @@ a {
     .travel-info__items {
         grid-template-columns: repeat(3, 1fr);
         grid: 40px;
+    }
+    .popular {
+        padding: 50px 0;
+    }
+    .popular__link {
+        min-height: 320px;
+    }
+    .popular__link:nth-child(3),
+    .popular__link:nth-child(6) {
+        grid-row: auto;
+        grid-column: auto;
+    }
+    .popular__items {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -599,6 +622,9 @@ a {
     }
     .title {
         font-size: 28px;
+    }
+    .popular__items {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
