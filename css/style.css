@@ -596,6 +596,17 @@ a {
     .tour__info {
         grid-template-columns: repeat(2, 1fr);
     }
+    .booking {
+        padding: 50px 0;
+    }
+    .booking__input {
+        width: 100%;
+    }
+    .booking__label {
+        margin-top: -192px;
+        margin-left: 50px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 560px) {
